@@ -1,4 +1,8 @@
 # tuyar-webhook-go
+<picture>
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized-mobile.png">
+  <img src="https://raw.githubusercontent.com/yedoma-labs/assets/main/resized/banner-resized.png" alt="Project Header">
+</picture>
 
 Webhook signature verification for Go, using only the standard library. It supports **Standard Webhooks**, **Stripe**, **GitHub** and generic **HMAC-SHA256** signatures, checks them against the raw request body, and rejects replayed timestamps.
 
